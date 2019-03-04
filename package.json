@@ -1,0 +1,27 @@
+{
+  "name": "@kylerross/test-server",
+  "version": "1.0.0",
+  "description": "A simple Koa server to respond to any URL and provide the results",
+  "main": "index.js",
+  "bin": {
+    "test-server": "bin/test-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleRoss/test-server.git"
+  },
+  "author": "Kyle Ross <thejavascriptguy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KyleRoss/test-server/issues"
+  },
+  "homepage": "https://github.com/KyleRoss/test-server#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "dashdash": "^1.14.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-qs": "^2.0.0"
+  }
+}
